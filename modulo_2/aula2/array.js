@@ -42,3 +42,8 @@ const outros = arr.slice(-3)
 console.log(arr)
 console.log(wizard)
 console.log(outros)
+
+//concat ( utilizado para mesclar dois ou mais arrays e strings. Esse método não altera
+ //os arrays existentes, mas, em vez disso, retorna um novo array)
+const hogwarts = wizard.concat(outros, "Neville")
+console.log(hogwarts)
