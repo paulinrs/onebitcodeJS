@@ -1,4 +1,4 @@
-const arr = ["harry", "Hermione", "Ron", "Draco", "Gina", "Neville", "Luna", "Severus"]
+const arr = ["Harry", "Hermione", "Ron", "Draco", "Gina", "Neville", "Luna", "Severus"]
 console.log(arr)
 
 //Adicionar Elementos
@@ -23,3 +23,22 @@ console.log(ultimoElemento)
 ultimoElemento = arr.shift()
 console.log(arr)
 console.log(ultimoElemento)
+
+//Pesquisar por um elemento
+//includes(pesquisa por um valor exato do array  retornando true ou false)
+const inclui = arr.includes("Harry")
+console.log(inclui)
+
+//indexOf (pesquisa por um valor e posição exata no array)
+const indece = arr.indexOf("Gina")
+console.log(indece)
+
+//Cortar e Concatenar
+//slice (copia uma parte do array que foi solicitado. obs: o ultimo numero fica de fora
+//no exeplo a seguir vai copiar do 0 ate o 4)
+const wizard = arr.slice(0, 5)
+//no exemplo a seguir copiar no negativo ou seja volta depois do 0 e conta -1, -2, -3 por exemplo)
+const outros = arr.slice(-3)
+console.log(arr)
+console.log(wizard)
+console.log(outros)
