@@ -30,8 +30,8 @@ const inclui = arr.includes("Harry")
 console.log(inclui)
 
 //indexOf (pesquisa por um valor e posição exata no array)
-const indece = arr.indexOf("Gina")
-console.log(indece)
+const indice = arr.indexOf("Gina")
+console.log(indice)
 
 //Cortar e Concatenar
 //slice (copia uma parte do array que foi solicitado. obs: o ultimo numero fica de fora
@@ -47,3 +47,15 @@ console.log(outros)
  //os arrays existentes, mas, em vez disso, retorna um novo array)
 const hogwarts = wizard.concat(outros, "Neville")
 console.log(hogwarts)
+
+//Substituição dos elementos
+//splice
+const elementosRemovidos = wizard.splice(inclui, 1, "Harry Potter")
+console.log(wizard)
+console.log(elementosRemovidos)
+
+//Iterar sobre os Elementos
+for (let i = 0; i < arr.length; i++){
+    const elemento = arr[i]
+    console.log(elemento + " se encontra na posição " + i)
+}
