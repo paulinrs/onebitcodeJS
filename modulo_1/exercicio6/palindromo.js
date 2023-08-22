@@ -11,6 +11,6 @@ if (palavra === palavraIvertida) {
 } else {
     alert(
         palavra + " não é um palindromo!\n\n" +
-        palavra + " diferente " + palavraIvertida
+        palavra + " é diferente " + palavraIvertida
     )
 }
