@@ -20,7 +20,7 @@ do {
         case "2":
             const pacienteConsultado = fila.shift()
             if (pacienteConsultado) {
-                alert(pacienteConsultado + " Ja foi consultado, proximo paciente ")
+                alert(pacienteConsultado + " Ja foi consultado!")
             } else {
                 alert("Fila de paciente vazia!")
             }
